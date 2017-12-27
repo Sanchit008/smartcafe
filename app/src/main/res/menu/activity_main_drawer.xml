@@ -17,7 +17,7 @@
         <item
             android:id="@+id/Extra"
 
-            android:title="Extra's" />
+            android:title="Performance" />
     </group>
 
     <item android:title="Communicate">

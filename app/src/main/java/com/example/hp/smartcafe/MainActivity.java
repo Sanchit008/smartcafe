@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        fab.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
@@ -92,6 +92,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.Extra) {
+            Intent i=new Intent(this,Extra.class);
+            startActivity(i);
 
         } else if (id == R.id.Contact) {
             Intent i=new Intent(this,Contact.class);
